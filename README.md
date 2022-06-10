@@ -16,5 +16,6 @@ This project is created in the following way (starting from scratch)
 
 Run following script to scaffold a new Module
 > npm run scaffold-module [module name]
+
 Build project to auto update the list of modules to be rendered (src/data/listOfModules.js)
 > npm run build:dev (or build:prod)
