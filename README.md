@@ -32,3 +32,16 @@ This plugin hooks compiler.hooks.beforeRun in order to scan folder src/modules f
 
 This is a simple example to show how a plugin can be used to accumulate data and make connections that can otherwise be forgotten by a developer.
 
+### FileListPlugin
+
+Shamlessly stolen from an example. A plugin that creates a md-file in dist with assets in the build.
+
+## Loader example
+
+Loaders are located in the folder utilities/loaders.
+
+### DotTemplate-Loader
+
+This loader handles all files \*.dottemplate and makes them into callable template functions according to the usage of the doT.js template engine.
+See webpack.config.js for the setup and usage of the loader.
+The quoteModule.js under src/modules imports the template ./../assets/templates/quote.dottemplate
