@@ -1,0 +1,1 @@
+this is a quote {{=it.quote}}!!! And it uses a loader to convert a simple doT.js Template to a callable function.
